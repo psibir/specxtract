@@ -2,7 +2,7 @@
 
 ![specxtract_logo](https://github.com/psibir/specxtract/blob/main/specxtract_logo.png?raw=true)
 
-The `specxtract` program is a utility designed to extract product specifications, features, and related information from DOCX files. It uses regular expressions to identify specific patterns in the text and extracts relevant data. Additionally, it can optionally extract images from the document and save the extracted data in a CSV file.
+The `specxtract` program is a utility designed to extract product specifications, features, and related information from DOCX files. It uses regular expressions to identify specific patterns in the text and extracts relevant data.
 
 ## Usage
 
@@ -18,7 +18,6 @@ python specxtract.py docx_path -o OUTPUT_CSV [-h]
 ## Features
 
 - Extracts product feature categories and their related information from DOCX files.
-- Supports parsing both single DOCX files and multiple DOCX files in a directory.
 - Extracts data based on predefined feature patterns using regular expressions.
 - Handles both email addresses and phone numbers separately, capturing the entire address/number.
 - Outputs the extracted data in a CSV file if specified using the `-o` flag.
