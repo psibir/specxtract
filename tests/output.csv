@@ -1,0 +1,29 @@
+Document ID,Record ID,Pattern,Matched Content,Value
+input.docx,1,Name,Name,Apple
+input.docx,1,Brand,Brand,Example Farms
+input.docx,1,Quantity,Quantity,12
+input.docx,1,Price,5.99,$5.99
+input.docx,1,Brackets,FUN FOR ALL AGES,
+input.docx,1,Parentheses,wash before enjoying,
+input.docx,2,Name,Name,Bananas
+input.docx,2,Brand,Brand,Instance Imports
+input.docx,2,Quantity,Quantity,12
+input.docx,2,Price,1.99,$1.99
+input.docx,2,Brackets,7foot 8foot 9foot BUNCH,
+input.docx,2,Parentheses,Daylight come and I wanna go home,
+input.docx,3,Name,Name,Candy
+input.docx,3,Brand,Brand,Willy Wonka
+input.docx,3,Quantity,Quantity,12
+input.docx,3,Price,3.99,$3.99
+input.docx,3,Brackets,CHOKING HAZARD,
+input.docx,3,Parentheses,As seen on TV!,
+input.docx,4,ExpirationDate,Exp,06/23/95
+input.docx,4,Brackets,YOUR AD HERE,
+input.docx,4,Phone,1-800-123-1234,
+input.docx,4,Phone,800-876-5309,
+input.docx,4,Email,examplemail@domain.com,
+input.docx,4,UpperCaseWord,LIMITED TIME OFFER,
+input.docx,5,Keywords,Features,Roomy Interior
+input.docx,5,Asterisks,Durable and Fashionable,
+input.docx,5,Tabular,Status|Destination,
+input.docx,5,Tabular,On Time|Dublin,
