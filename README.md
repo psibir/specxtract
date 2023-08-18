@@ -1,5 +1,7 @@
 # SpecXtract - Simple Specification Parser for DOCX Files
 
+![specxtract_logo](https://github.com/psibir/specxtract/blob/main/specxtract_logo.png?raw=true)
+
 The `specxtract` program is a utility designed to extract product specifications, features, and related information from DOCX files. It uses regular expressions to identify specific patterns in the text and extracts relevant data. Additionally, it can optionally extract images from the document and save the extracted data in a CSV file.
 
 ## Usage
