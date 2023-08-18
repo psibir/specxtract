@@ -7,7 +7,7 @@ The `specxtract` program is a utility designed to extract product specifications
 To use the `specxtract` utility, you can run it from the command line with the following syntax:
 
 ```bash
-python specxtract.py docx_path [-h] -o OUTPUT_CSV
+python specxtract.py docx_path -o OUTPUT_CSV [-h]
 ```
 
 - `docx_path`: Path to the DOCX file or directory containing DOCX files for parsing.
