@@ -1,4 +1,4 @@
-# SpecXtract - Specification Parser for DOCX Files
+# SpecXtract - Specification Parser for DOCX
 
 ![specxtract_logo](https://github.com/psibir/specxtract/blob/main/specxtract_logo.png?raw=true)
 
