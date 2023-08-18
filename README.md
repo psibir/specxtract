@@ -7,11 +7,11 @@ The `specxtract` program is a utility designed to extract product specifications
 To use the `specxtract` utility, you can run it from the command line with the following syntax:
 
 ```bash
-python specxtract.py docx_path [-h] [-o OUTPUT_CSV] 
+python specxtract.py docx_path [-h] -o OUTPUT_CSV
 ```
 
 - `docx_path`: Path to the DOCX file or directory containing DOCX files for parsing.
-- `-o OUTPUT_CSV`: Path of the output CSV file to store extracted data (optional).
+- `-o OUTPUT_CSV`: Path of the output CSV file to store extracted data.
 
 ## Features
 
@@ -52,3 +52,25 @@ XYZ Electronics uses the `specxtract` utility to automatically extract and categ
 - Efficient Analysis: By having the data in CSV format, the team can quickly analyze and make decisions regarding product procurement.
 
 The `specxtract` utility streamlines the extraction of product feature categories from supplier documents, enhancing XYZ Electronics' efficiency in product evaluation and decision-making.
+
+Sure, here's the section you can add to your `README` to explain how to run tests using the `specxtract` program:
+
+## Testing
+
+To run tests for the `specxtract` program, you can use the following command:
+
+```bash
+python3 specxtract.py ../tests/input.docx -o ../tests/output.csv
+```
+
+Here's what this command does:
+
+- `python3 specxtract.py`: This command runs the `specxtract` program using Python 3.
+
+- `../tests/input.docx`: This is the path to the input DOCX file that you want to parse. Make sure to replace `../tests/input.docx` with the actual path to your test input file.
+
+- `-o ../tests/output.csv`: This specifies the output CSV file where the extracted data will be saved. Replace `../tests/output.csv` with the desired path for your output CSV file.
+
+Running this command will execute the `specxtract` program on the specified input DOCX file, extract the data based on the predefined feature patterns, and save the extracted data in the specified output CSV file. You can then review the output CSV file to verify if the program is working correctly for your test case.
+
+Make sure that you have the necessary dependencies and the `specxtract.py` file in the correct directory before running the tests. If needed, you might also want to provide additional input files and adjust the paths accordingly.
